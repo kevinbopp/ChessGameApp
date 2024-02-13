@@ -1,0 +1,474 @@
+.headerbuttontext {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.headerbuttonprofile {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 121px;
+  left: calc(50% - 121px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(251.66deg, #3259a7, #3a7dff);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headertextwelcomeusername {
+  position: absolute;
+  top: 7px;
+  left: calc(50% - 720px);
+  display: inline-block;
+  width: 1440px;
+  height: 102px;
+}
+.header {
+  align-self: stretch;
+  position: relative;
+  height: 204px;
+  z-index: 0;
+}
+.content1divider {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  height: 408px;
+}
+.logoutbuttontext {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.buttonfindfriend,
+.buttonfinduser,
+.buttonlogout {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  background-color: var(--miscbutton);
+  position: absolute;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlogout {
+  top: 348px;
+  left: 49px;
+  background: linear-gradient(247.11deg, #565656, #323232);
+  width: 171px;
+  height: 46px;
+  box-sizing: border-box;
+}
+.buttonfindfriend,
+.buttonfinduser {
+  background: linear-gradient(251.66deg, #3259a7, #3a7dff);
+}
+.buttonfinduser {
+  top: 336px;
+  left: calc(50% + 149px);
+  width: 261px;
+  box-sizing: border-box;
+}
+.buttonfindfriend {
+  top: 260px;
+  left: calc(50% + 148.5px);
+}
+.playonlinebuttontext {
+  position: relative;
+  font-size: var(--font-size-27xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.buttonplayonline {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 166px;
+  left: calc(50% + 75px);
+  border-radius: var(--br-21xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.36);
+  width: 409px;
+  height: 76px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.imgplayonlineIcon {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 206px);
+  width: 148px;
+  height: 148px;
+  object-fit: cover;
+}
+.comingsoonbuttontext {
+  position: relative;
+}
+.buttoncomingsoon {
+  position: absolute;
+  top: 260px;
+  left: calc(50% - 411px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  width: 262px;
+  height: 58px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.playaibuttontext {
+  position: relative;
+  font-size: var(--font-size-27xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.buttonplayai {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 166px;
+  left: calc(50% - 485px);
+  border-radius: var(--br-21xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.36);
+  width: 409px;
+  height: 76px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.imgplayaiIcon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 354px);
+  width: 148px;
+  height: 148px;
+  object-fit: cover;
+}
+.content1 {
+  align-self: stretch;
+  position: relative;
+  height: 415px;
+  z-index: 1;
+  font-size: var(--font-size-11xl);
+  color: var(--color-silver-200);
+}
+.content2buttonhow {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 286px;
+  left: calc(50% - 449px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(251.66deg, #3259a7, #3a7dff);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content2imghowIcon {
+  position: absolute;
+  top: 80px;
+  left: calc(50% + 72px);
+  border-radius: var(--br-16xl);
+  width: 416px;
+  height: 264px;
+  object-fit: cover;
+}
+.content2textwe {
+  position: absolute;
+  top: 145px;
+  left: calc(50% - 416px);
+  font-weight: 300;
+}
+.content2textnew {
+  position: absolute;
+  top: 64px;
+  left: calc(50% - 493px);
+  font-size: var(--font-size-45xl);
+  color: var(--inputform);
+}
+.content2 {
+  align-self: stretch;
+  position: relative;
+  background: linear-gradient(153.16deg, #37456a, #c5b8d6);
+  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.45);
+  height: 408px;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-lightgray);
+}
+.footerimggithub {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 15px;
+  left: calc(50% + 231px);
+  width: 70px;
+  height: 70px;
+  background-image: url(/public/footerimggithub2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footertextcopyright {
+  position: absolute;
+  top: 69px;
+  left: calc(50% - 155px);
+  font-weight: 300;
+  display: inline-block;
+  width: 315px;
+  height: 24px;
+}
+.footerbuttonback,
+.footerimgdiscord {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 15px;
+}
+.footerbuttonback {
+  padding: var(--padding-4xs) var(--padding-16xl);
+  left: calc(50% - 97.5px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  height: 46px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.footerimgdiscord {
+  padding: 0;
+  left: calc(50% - 298px);
+  width: 70px;
+  height: 70px;
+  background-image: url(/public/footerimgdiscord2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footer,
+.navbarbackground {
+  background-color: var(--color-gray-100);
+}
+.footer {
+  align-self: stretch;
+  position: relative;
+  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.45);
+  height: 100px;
+  z-index: 3;
+  font-size: var(--font-size-base);
+  color: var(--color-silver-100);
+}
+.navbarbackground {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.45);
+  height: 73px;
+}
+.navprofilepicIcon {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.navelo,
+.navusername {
+  position: absolute;
+  top: 28px;
+  right: 65px;
+}
+.navusername {
+  top: 0;
+}
+.navabout:hover,
+.navcontact:hover,
+.navhow:hover,
+.navusername:hover {
+  color: var(--color-lightsteelblue);
+}
+.navprofilecorner {
+  position: absolute;
+  top: 9px;
+  right: 25px;
+  width: 169px;
+  height: 56px;
+  cursor: pointer;
+  text-align: right;
+}
+.navcontact,
+.pageselectcontact {
+  position: absolute;
+  left: 456px;
+  width: 111px;
+}
+.pageselectcontact {
+  top: 69px;
+  background-color: var(--inputform);
+  height: 4px;
+}
+.navcontact {
+  top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.navhow,
+.pageselecthow {
+  position: absolute;
+  left: 286px;
+  width: 120px;
+}
+.pageselecthow {
+  top: 69px;
+  background-color: var(--inputform);
+  height: 4px;
+}
+.navhow {
+  top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.navabout,
+.pageselectabout {
+  position: absolute;
+  left: 173px;
+  width: 63px;
+}
+.pageselectabout {
+  top: 69px;
+  background-color: var(--inputform);
+  height: 4px;
+}
+.navabout {
+  top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.pageselectlogo {
+  position: absolute;
+  top: 69px;
+  left: 81px;
+  background-color: var(--inputform);
+  width: 42px;
+  height: 4px;
+}
+.navlogoIcon {
+  position: absolute;
+  top: 8px;
+  left: 71.83px;
+  width: 53.89px;
+  height: 55.15px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navbar,
+.navcomputersi {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 73px;
+}
+.navcomputersi {
+  margin: 0 !important;
+  z-index: 4;
+  font-size: var(--font-size-3xl);
+}
+.landingcomputer {
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-54xl) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url(/public/landingcomputer@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}

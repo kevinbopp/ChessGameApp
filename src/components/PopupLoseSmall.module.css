@@ -1,0 +1,231 @@
+.popuptextwinlose {
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 161px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 310px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+.popupheader {
+  position: relative;
+  width: 272px;
+  height: 78px;
+  z-index: 0;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-outfit);
+}
+.popupimgclosebutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  margin: 0 !important;
+  top: 19px;
+  right: 31px;
+  width: 40px;
+  height: 40px;
+  background-image: url(/public/popupimgclosebutton4@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.popupimgavatarrightIcon {
+  position: absolute;
+  top: 17px;
+  left: calc(50% + 66px);
+  border-radius: var(--br-61xl);
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.popuptextwon {
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 81px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 161px;
+}
+.popupimgavatarleftIcon {
+  position: absolute;
+  top: 19px;
+  left: calc(50% - 134px);
+  border-radius: var(--br-61xl);
+  width: 66px;
+  height: 66px;
+  object-fit: cover;
+}
+.popupusernames {
+  position: relative;
+  width: 292px;
+  height: 97px;
+  z-index: 2;
+}
+.popupbuttonplayagaintext {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.popupbuttonplayagain {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 150px;
+  left: calc(50% + 10px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 126px;
+  height: 36px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.popupbackhomebuttontext {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.popupbuttonbackhome {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 136px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 127px;
+  height: 36px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.popuptextrankingchange,
+.popuptextrankingvalue {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 0px);
+  display: flex;
+  align-items: center;
+  width: 74px;
+  height: 57px;
+}
+.popuptextrankingvalue {
+  left: calc(50% - 143px);
+  font-size: var(--font-size-29xl);
+  color: var(--inputform);
+  text-align: center;
+  justify-content: center;
+  width: 143px;
+}
+.popuprankingvalues {
+  position: absolute;
+  top: 77px;
+  left: calc(50% - 3px);
+  width: 148px;
+  height: 57px;
+}
+.popupbuttonaddfriend,
+.popuptextrankingtitle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popuptextrankingtitle {
+  top: 31px;
+  left: calc(50% - 125px);
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+  width: 249px;
+  height: 46px;
+}
+.popupbuttonaddfriend {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  top: -8px;
+  left: calc(50% - 70px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 141px;
+  height: 29px;
+  overflow: hidden;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.popupcontent {
+  position: relative;
+  width: 292px;
+  height: 209px;
+  z-index: 3;
+  text-align: left;
+  color: var(--color-orangered);
+}
+.popuplosesmall {
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 310px;
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  background-image: url(/public/popuplosesmall@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--inputform);
+  font-family: var(--font-pt-serif);
+}
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}

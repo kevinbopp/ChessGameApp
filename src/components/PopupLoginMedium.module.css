@@ -1,0 +1,283 @@
+.popupswapbackground {
+  position: absolute;
+  top: -8px;
+  left: calc(50% - 135px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #525252, #393939);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  width: 270px;
+  height: 40px;
+  overflow: hidden;
+}
+.swapbuttonlogintext {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+.popupswapbuttonlogin {
+  position: absolute;
+  top: -8px;
+  left: calc(50% - 135px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  width: 135px;
+  height: 40px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  box-sizing: border-box;
+}
+.popupswapbuttonlogin,
+.popupswapbuttonsignup,
+.swapbuttonregistertext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swapbuttonregistertext {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+  width: 118px;
+}
+.swapbuttonregistertext:hover {
+  color: var(--color-lightsteelblue);
+}
+.popupswapbuttonsignup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: -8px;
+  left: calc(50% - 0px);
+  border-radius: var(--br-11xl);
+  width: 135px;
+  height: 40px;
+  overflow: hidden;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.popupswap {
+  position: relative;
+  width: 330px;
+  height: 91px;
+  z-index: 0;
+}
+.popupimgclosebutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  margin: 0 !important;
+  top: 10px;
+  right: 26px;
+  width: 50px;
+  height: 50px;
+  background-image: url(/public/popupimgclosebutton3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.alerts {
+  color: var(--color-palegreen);
+}
+.popuptexterrorsTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.popuptexterrors {
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 187px);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 373px;
+  height: 46px;
+  color: var(--color-salmon);
+}
+.popuptextlabelusername,
+.popuptexttitlelogin {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popuptexttitlelogin {
+  top: -49px;
+  left: calc(50% - 145px);
+  font-size: var(--font-size-29xl);
+  width: 281px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+.popuptextlabelusername {
+  top: 54px;
+  left: calc(50% - 176px);
+  font-size: var(--font-size-3xl);
+  width: 352px;
+}
+.popupheader {
+  position: relative;
+  width: 336px;
+  height: 142px;
+  z-index: 2;
+  font-size: var(--font-size-xl);
+}
+.popupinputformpassword {
+  border: 2px solid var(--color-red);
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-3xl);
+  background-color: var(--inputform);
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 142px);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+  box-sizing: border-box;
+  width: 283px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  align-items: center;
+  justify-content: center;
+}
+.popupimghidepassword {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 33px;
+  left: calc(50% + 92.5px);
+  width: 40px;
+  height: 40px;
+  background-image: url(/public/popupimghidepassword@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.popupinputformusername,
+.popuptextlabelpassword {
+  position: absolute;
+  top: -3px;
+  left: calc(50% - 111px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 222px;
+}
+.popupinputformusername {
+  border: 2px solid var(--color-red);
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-3xl);
+  background-color: var(--inputform);
+  top: -66px;
+  left: calc(50% - 142px);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+  box-sizing: border-box;
+  width: 283px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+}
+.popupforms {
+  position: relative;
+  width: 294px;
+  height: 82px;
+  z-index: 3;
+  font-size: var(--font-size-3xl);
+}
+.popupbuttonlogin,
+.popupbuttonlogintext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popupbuttonlogintext {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+  width: 120px;
+}
+.popupbuttonlogin {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 207px;
+  height: 52px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  z-index: 4;
+}
+.here {
+  text-decoration: underline;
+  color: var(--color-aqua);
+}
+.popupanchorforgotpassword,
+.popuploginmedium {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.popupanchorforgotpassword {
+  width: 255px;
+  cursor: pointer;
+  z-index: 5;
+}
+.popuploginmedium {
+  border-radius: var(--br-81xl);
+  width: 374px;
+  height: 567px;
+  flex-direction: column;
+  padding: var(--padding-29xl) var(--padding-lgi);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-2xs);
+  background-image: url(/public/popuploginmedium@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}
