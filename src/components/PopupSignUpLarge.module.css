@@ -1,0 +1,330 @@
+.popupswapbackground {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 190px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #525252, #393939);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  width: 380px;
+  height: 56px;
+  overflow: hidden;
+}
+.swapbuttonsignuptext {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+.popupswapbuttonsignup {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 0px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  width: 190px;
+  height: 56px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  box-sizing: border-box;
+}
+.popupswapbuttonlogin,
+.popupswapbuttonsignup,
+.swapbuttonlogintext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swapbuttonlogintext {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+  width: 118px;
+}
+.swapbuttonlogintext:hover {
+  color: var(--color-lightsteelblue);
+}
+.popupswapbuttonlogin {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 0;
+  left: calc(50% - 190px);
+  border-radius: var(--br-11xl);
+  width: 190px;
+  height: 56px;
+  overflow: hidden;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.popupswap {
+  position: relative;
+  width: 380px;
+  height: 56px;
+  z-index: 0;
+}
+.popupimgclosebutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  right: 23px;
+  width: 64px;
+  height: 64px;
+  background-image: url(/public/popupimgclosebutton6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.alerts {
+  color: var(--color-palegreen);
+}
+.popuptexterrorsTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.popuptexterrors,
+.popuptexttitlesignup {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.popuptexterrors {
+  top: 107px;
+  left: calc(50% - 252.5px);
+  font-weight: 500;
+  width: 505px;
+}
+.popuptexttitlesignup {
+  top: 0;
+  left: calc(50% - 195.5px);
+  font-size: var(--font-size-57xl);
+  color: var(--inputform);
+  justify-content: center;
+  width: 380px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+.popupheader {
+  position: relative;
+  width: 505px;
+  height: 142px;
+  z-index: 2;
+  font-size: var(--font-size-9xl);
+  color: var(--color-salmon);
+}
+.popupinputformconfirmpassword {
+  border: 2px solid var(--color-red);
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-3xl);
+  background-color: var(--inputform);
+  position: absolute;
+  top: 189px;
+  left: calc(50% - 16.5px);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+  box-sizing: border-box;
+  width: 283px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  align-items: center;
+  justify-content: center;
+}
+.popupimghideconfirmpassword {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 192px;
+  left: calc(50% + 217.5px);
+  width: 40px;
+  height: 40px;
+  background-image: url(/public/popupimghideconfirmpassword1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.popupinputformpassword,
+.popuptextlabelconfirmpassword {
+  position: absolute;
+  top: 198px;
+  left: calc(50% - 266.5px);
+  display: flex;
+  align-items: center;
+  width: 245px;
+}
+.popupinputformpassword {
+  border: 2px solid var(--color-red);
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-3xl);
+  background-color: var(--inputform);
+  top: 126px;
+  left: calc(50% - 16.5px);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+  box-sizing: border-box;
+  width: 283px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  justify-content: center;
+}
+.popupimghidepassword {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 130px;
+  left: calc(50% + 217.5px);
+  width: 40px;
+  height: 40px;
+  background-image: url(/public/popupimghideconfirmpassword1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.popupinputformemail,
+.popuptextlabelpassword {
+  position: absolute;
+  top: 135px;
+  left: calc(50% - 265.5px);
+  display: flex;
+  align-items: center;
+  width: 234px;
+}
+.popupinputformemail {
+  border: 2px solid var(--color-red);
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-3xl);
+  background-color: var(--inputform);
+  top: 63px;
+  left: calc(50% - 17.5px);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+  box-sizing: border-box;
+  width: 283px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  justify-content: center;
+}
+.popupinputformnewusername,
+.popuptextlabelemail {
+  position: absolute;
+  top: 72px;
+  left: calc(50% - 266.5px);
+  display: flex;
+  align-items: center;
+  width: 234px;
+}
+.popupinputformnewusername {
+  border: 2px solid var(--color-red);
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-3xl);
+  background-color: var(--inputform);
+  top: 0;
+  left: calc(50% - 17.5px);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+  box-sizing: border-box;
+  width: 283px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  justify-content: center;
+}
+.popuptextlabelnewusername {
+  position: absolute;
+  top: 9px;
+  left: calc(50% - 266.5px);
+  display: flex;
+  align-items: center;
+  width: 234px;
+}
+.popupforms {
+  position: relative;
+  width: 533px;
+  height: 243px;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.popupbuttonsignuptext {
+  position: relative;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.popupbuttonsignup,
+.popupsignuplarge {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.popupbuttonsignup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 272px;
+  height: 80px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.popupsignuplarge {
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 565px;
+  height: 695px;
+  padding: var(--padding-24xl) var(--padding-base);
+  gap: var(--gap-6xl);
+  background-image: url(/public/popupsignuplarge@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}
