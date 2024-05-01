@@ -1,0 +1,213 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.closespacer {
+  position: relative;
+  width: 64px;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.closebuttonicon {
+  position: absolute;
+  margin: 0 !important;
+  top: 16px;
+  left: 16px;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+  z-index: 1;
+}
+.welcomeheader,
+.welcomeusername {
+  position: relative;
+  align-items: center;
+  width: 179px;
+}
+.welcomeheader {
+  display: flex;
+}
+.welcomeusername {
+  display: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 18;
+  -webkit-box-orient: vertical;
+}
+.welcome {
+  width: 200px;
+  height: 51px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-3xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.droplogout {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  width: 66px;
+  cursor: pointer;
+}
+.droplogout:hover {
+  color: var(--color-darkred);
+}
+.logout {
+  position: relative;
+  width: 101px;
+  height: 25px;
+}
+.dropprofile {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  display: flex;
+  align-items: center;
+  width: 57px;
+  cursor: pointer;
+}
+.dropabout:hover,
+.dropcontactus:hover,
+.dropfriends:hover,
+.drophowtoplay:hover,
+.dropprofile:hover {
+  color: var(--color-lightsteelblue);
+}
+.profile {
+  position: relative;
+  width: 88px;
+  height: 25px;
+  color: var(--inputform);
+}
+.sibuttons {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray);
+}
+.divider {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--inputform);
+  height: 2px;
+  z-index: 4;
+}
+.dropabout {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  display: flex;
+  align-items: center;
+  width: 69px;
+  cursor: pointer;
+}
+.about {
+  position: relative;
+  width: 200px;
+  height: 33px;
+  z-index: 5;
+}
+.drophowtoplay {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  display: flex;
+  align-items: center;
+  width: 120px;
+  cursor: pointer;
+}
+.howtoplay {
+  position: relative;
+  width: 200px;
+  height: 33px;
+  z-index: 6;
+}
+.dropcontactus {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  display: flex;
+  align-items: center;
+  width: 111px;
+  cursor: pointer;
+}
+.contactus {
+  position: relative;
+  width: 200px;
+  height: 33px;
+  z-index: 7;
+}
+.dropfriends {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  display: flex;
+  align-items: center;
+  width: 76px;
+  cursor: pointer;
+}
+.friends {
+  position: relative;
+  width: 200px;
+  height: 33px;
+  z-index: 8;
+}
+.popupsidesi {
+  position: relative;
+  background-color: var(--color-gray-100);
+  box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) 0 var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0;
+  height: 100%;
+  max-width: 90%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+.popupsidesi.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}

@@ -1,0 +1,157 @@
+.popuptextleaving,
+.popuptexttitlewarning {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popuptextleaving {
+  top: 65px;
+  left: calc(50% - 132px);
+  width: 264px;
+  height: 84px;
+}
+.popuptexttitlewarning {
+  top: 5px;
+  left: calc(50% - 142px);
+  font-size: var(--font-size-29xl);
+  width: 283px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+.popupheader {
+  position: relative;
+  width: 294px;
+  height: 130px;
+  z-index: 0;
+}
+.popupimgclosebuttonIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 21px;
+  right: 22px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.popuptextsure {
+  position: absolute;
+  top: 5px;
+  left: calc(50% - 147px);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 294px;
+  height: 117px;
+}
+.popupinformation {
+  position: relative;
+  width: 294px;
+  height: 118px;
+  z-index: 2;
+  font-size: var(--font-size-13xl);
+}
+.popupleavebuttontext {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.popupbuttonleave {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 3px;
+  left: calc(50% + 9px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 126px;
+  height: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.popupcancelbuttontext {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.popupbuttoncancel {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 135px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 126px;
+  height: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.popupleavebuttons {
+  position: relative;
+  width: 294px;
+  height: 55px;
+  z-index: 3;
+}
+.popupleavesmall {
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 310px;
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-17xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/public/popupleavesmall@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}

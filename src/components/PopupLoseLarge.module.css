@@ -1,0 +1,266 @@
+.popuptextwinlose {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 195.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+.popupheader {
+  position: relative;
+  width: 511px;
+  height: 96px;
+  z-index: 0;
+}
+.popupimgclosebutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  margin: 0 !important;
+  top: 15px;
+  left: 465px;
+  width: 73px;
+  height: 73px;
+  background-image: url(/public/popupimgclosebutton6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.popuptextusernameright {
+  position: absolute;
+  top: 93px;
+  left: calc(50% + 66.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 214px;
+}
+.popupimgavatarrightIcon {
+  position: absolute;
+  top: -4px;
+  left: calc(50% + 120.5px);
+  border-radius: var(--br-61xl);
+  width: 106px;
+  height: 106px;
+  object-fit: cover;
+}
+.popuptextusernameleft,
+.popuptextwon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popuptextwon {
+  top: 13px;
+  left: calc(50% - 124.5px);
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-pt-serif);
+  width: 249px;
+}
+.popuptextusernameleft {
+  top: 93px;
+  left: calc(50% - 278.5px);
+  width: 210px;
+}
+.popupimgavatarleftIcon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 222.5px);
+  border-radius: var(--br-61xl);
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+}
+.popupusernames {
+  position: relative;
+  width: 511px;
+  height: 121px;
+  z-index: 2;
+  font-size: var(--font-size-3xl);
+}
+.popupbuttonplayagaintext {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.popupbuttonplayagain {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 4px;
+  left: calc(50% + 12.5px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 243px;
+  height: 63px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.popupbackhomebuttontext {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.popupbottombuttons,
+.popupbuttonbackhome {
+  position: absolute;
+  left: calc(50% - 255.5px);
+}
+.popupbuttonbackhome {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  top: 4px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 243px;
+  height: 63px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.popupbottombuttons {
+  top: 250px;
+  width: 511px;
+  height: 71px;
+}
+.popuptextrankingchange,
+.popuptextrankingvalue {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 0px);
+  display: flex;
+  align-items: center;
+  width: 143px;
+  height: 57px;
+}
+.popuptextrankingvalue {
+  left: calc(50% - 143px);
+  font-size: var(--font-size-29xl);
+  color: var(--inputform);
+  text-align: center;
+  justify-content: center;
+}
+.popuprankingvalues {
+  position: absolute;
+  top: 133px;
+  left: calc(50% - 71.5px);
+  width: 286px;
+  height: 57px;
+}
+.popuptextrankingtitle {
+  position: absolute;
+  top: 87px;
+  left: calc(50% - 124.5px);
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 249px;
+  height: 46px;
+}
+.popupbuttonaddfriendtext {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.popupbuttonaddfriend {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100.5px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 201px;
+  height: 41px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.popupcontent {
+  position: relative;
+  width: 539px;
+  height: 346px;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-orangered);
+  font-family: var(--font-pt-serif);
+}
+.popuploselarge {
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 565px;
+  height: 631px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  background-image: url(/public/popuploselarge@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-57xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}

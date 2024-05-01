@@ -1,0 +1,275 @@
+.popupswapbackground {
+  position: absolute;
+  top: -5px;
+  left: calc(50% - 189.5px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #525252, #393939);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  width: 380px;
+  height: 56px;
+  overflow: hidden;
+}
+.swapbuttonlogintext {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+.popupswapbuttonlogin {
+  position: absolute;
+  top: -5px;
+  left: calc(50% - 189.5px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  width: 190px;
+  height: 56px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  box-sizing: border-box;
+}
+.popupswapbuttonlogin,
+.popupswapbuttonsignup,
+.swapbuttonregistertext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swapbuttonregistertext {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+  width: 118px;
+}
+.swapbuttonregistertext:hover {
+  color: var(--color-lightsteelblue);
+}
+.popupswapbuttonsignup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: -5px;
+  left: calc(50% + 0.5px);
+  border-radius: var(--br-11xl);
+  width: 190px;
+  height: 56px;
+  overflow: hidden;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.popupswap {
+  position: relative;
+  width: 455px;
+  height: 56px;
+  z-index: 0;
+  font-size: var(--font-size-7xl);
+}
+.popupimgclosebutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  right: 23px;
+  width: 64px;
+  height: 64px;
+  background-image: url(/public/popupimgclosebutton6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.alerts {
+  color: var(--color-palegreen);
+}
+.popuptexterrorsTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.popuptexterrors,
+.popuptexttitlelogin {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.popuptexterrors {
+  top: 107px;
+  left: calc(50% - 252.5px);
+  font-weight: 500;
+  width: 505px;
+}
+.popuptexttitlelogin {
+  top: 0;
+  left: calc(50% - 195.5px);
+  font-size: var(--font-size-57xl);
+  color: var(--inputform);
+  justify-content: center;
+  width: 380px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+.popupheader {
+  position: relative;
+  width: 527px;
+  height: 142px;
+  z-index: 2;
+  color: var(--color-salmon);
+}
+.popupinputformpassword {
+  border: 2px solid var(--color-red);
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-3xl);
+  background-color: var(--inputform);
+  position: absolute;
+  top: 86px;
+  left: calc(50% - 23.5px);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+  box-sizing: border-box;
+  width: 283px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  align-items: center;
+  justify-content: center;
+}
+.popupimghidepassword {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 91px;
+  left: calc(50% + 211.5px);
+  width: 40px;
+  height: 40px;
+  background-image: url(/public/popupimghideconfirmpassword@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.popuptextlabelpassword {
+  top: 95px;
+  left: calc(50% - 259.5px);
+  width: 222px;
+}
+.popupinputformusername,
+.popuptextlabelpassword,
+.popuptextlabelusername {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popupinputformusername {
+  border: 2px solid var(--color-red);
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-3xl);
+  background-color: var(--inputform);
+  top: 5px;
+  left: calc(50% - 23.5px);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+  box-sizing: border-box;
+  width: 283px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-4xs) var(--padding-16xl);
+}
+.popuptextlabelusername {
+  top: 0;
+  left: calc(50% - 259.5px);
+  width: 222px;
+}
+.popupforms {
+  position: relative;
+  width: 519px;
+  height: 132px;
+  z-index: 3;
+  font-size: var(--font-size-3xl);
+}
+.popupbuttonlogintext {
+  position: relative;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.popupbuttonlogin {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 272px;
+  height: 69px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+.here {
+  text-decoration: underline;
+  color: var(--color-aqua);
+}
+.popupanchorforgotpassword {
+  position: relative;
+  cursor: pointer;
+  z-index: 5;
+}
+.popuploginlarge {
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 565px;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-29xl) var(--padding-lgi);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xl);
+  background-image: url(/public/popuploginlarge@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}
