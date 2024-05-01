@@ -1,0 +1,496 @@
+.headertextnumusers,
+.headertextusers {
+  position: absolute;
+  display: inline-block;
+}
+.headertextnumusers {
+  top: 63px;
+  left: calc(50% - 121px);
+  font-weight: 300;
+  width: 242px;
+  height: 70px;
+}
+.headertextusers {
+  top: 7px;
+  left: calc(50% - 155px);
+  font-size: var(--font-size-21xl);
+  color: var(--inputform);
+  width: 310px;
+  height: 56px;
+}
+.header {
+  align-self: stretch;
+  position: relative;
+  height: 140px;
+  z-index: 0;
+  color: var(--color-dimgray);
+}
+.formsearch,
+.textnoresultsfound {
+  display: flex;
+  justify-content: center;
+}
+.textnoresultsfound {
+  position: absolute;
+  top: 276px;
+  left: calc(50% - 151px);
+  align-items: center;
+  width: 302px;
+}
+.formsearch {
+  border: 2px solid var(--color-black);
+  font-family: var(--font-outfit);
+  font-size: var(--font-size-xl);
+  background-color: var(--inputform);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.36);
+  box-sizing: border-box;
+  width: 259px;
+  height: 39px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-lg) var(--padding-4xs);
+  align-items: flex-start;
+}
+.formsearchbutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: relative;
+  width: 37px;
+  height: 38px;
+  background-image: url(/public/formsearchbutton@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.labelformsearch,
+.searchcontainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.searchcontainer {
+  top: 208px;
+  left: calc(50% - 151px);
+  width: 302px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.labelformsearch {
+  top: 172px;
+  left: calc(50% - 143px);
+  font-weight: 300;
+  align-items: center;
+  width: 247px;
+}
+.findfriendbuttontext {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.buttonfindfriend,
+.labelfindfriendbutton {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonfindfriend {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  top: 104px;
+  left: calc(50% - 87px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(251.66deg, #3259a7, #3a7dff);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  width: 174px;
+  height: 39px;
+  overflow: hidden;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.labelfindfriendbutton {
+  top: 68px;
+  left: calc(50% - 109px);
+  font-weight: 300;
+  width: 218px;
+}
+.returnhomebuttontext {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.buttonreturnhome {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 0;
+  left: calc(50% - 87px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  width: 174px;
+  height: 39px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.content1 {
+  position: relative;
+  width: 310px;
+  height: 314px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  z-index: 1;
+  font-size: var(--font-size-3xl);
+}
+.cardavatar {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: relative;
+  border-radius: var(--br-mini);
+  width: 50px;
+  height: 50px;
+  background-image: url(/public/cardavatar@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.cardelo,
+.cardusername {
+  position: relative;
+  align-items: center;
+  width: 188px;
+}
+.cardusername {
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 24;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+}
+.cardusername:hover {
+  color: var(--color-lightsteelblue);
+}
+.cardelo {
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  color: var(--color-darkgray-100);
+  display: flex;
+  height: 21px;
+  flex-shrink: 0;
+}
+.cardtext,
+.carduserinfo {
+  width: 186px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.carduserinfo {
+  width: 238px;
+  height: 61px;
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.actionsaddfriendtext {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.cardbuttonaddfriend,
+.cardbuttonplaygame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  border-radius: var(--br-11xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 120px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.cardbuttonaddfriend {
+  background: linear-gradient(251.66deg, #3259a7, #3a7dff);
+}
+.cardbuttonplaygame {
+  background: linear-gradient(-79.51deg, #33b249, #5dbea3);
+}
+.cardbuttons,
+.carduser {
+  display: flex;
+  align-items: flex-start;
+}
+.cardbuttons {
+  width: 252px;
+  height: 30px;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.carduser {
+  border-radius: var(--br-36xl);
+  background: linear-gradient(
+    171.83deg,
+    rgba(55, 69, 106, 0.36),
+    rgba(197, 184, 214, 0.36)
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+  border: 2px solid var(--color-thistle);
+  box-sizing: border-box;
+  height: 141px;
+  overflow-y: auto;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-base) 0 var(--padding-xl);
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.buttoncanceltext {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.cardbuttonunfriend,
+.content2 {
+  display: flex;
+  justify-content: center;
+}
+.cardbuttonunfriend {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  background-color: var(--miscbutton);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 120px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+}
+.content2 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-3xs) 0;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  z-index: 2;
+  text-align: left;
+}
+.content3 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 236px;
+  z-index: 3;
+}
+.footerimggithub {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 23px;
+  left: calc(50% + 94px);
+  width: 38px;
+  height: 38px;
+  background-image: url(/public/footerimggithub@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footertextcopyright {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 155px);
+  font-weight: 300;
+  display: inline-block;
+  width: 315px;
+  height: 24px;
+}
+.footerbuttontext {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.footerbuttonback,
+.footerimgdiscord {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+}
+.footerbuttonback {
+  padding: var(--padding-4xs) var(--padding-16xl);
+  top: 17px;
+  left: calc(50% - 72.5px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  height: 27px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.footerimgdiscord {
+  padding: 0;
+  top: 23px;
+  left: calc(50% - 132px);
+  width: 38px;
+  height: 38px;
+  background-image: url(/public/footerimgdiscord@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footer,
+.navbarbackground {
+  background-color: var(--color-gray-100);
+}
+.footer {
+  align-self: stretch;
+  position: relative;
+  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.45);
+  height: 76px;
+  z-index: 4;
+  font-size: var(--font-size-5xs);
+  color: var(--color-silver-100);
+}
+.navbarbackground {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.45);
+  height: 73px;
+}
+.menubuttonicon {
+  position: absolute;
+  height: 60.4%;
+  width: 83.34%;
+  top: 20.85%;
+  right: 8.32%;
+  bottom: 18.75%;
+  left: 8.34%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hamburgermenubutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 21px;
+  right: 32px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.pageselectlogo {
+  position: absolute;
+  top: 69px;
+  left: 29px;
+  background-color: var(--inputform);
+  width: 39px;
+  height: 4px;
+}
+.navlogoIcon {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  width: 53.89px;
+  height: 55.15px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navmobile {
+  position: absolute;
+  margin: 0 !important;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 73px;
+  z-index: 5;
+}
+.usersearchmobile {
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-54xl) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  background-image: url(/public/usersearchmobile@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}

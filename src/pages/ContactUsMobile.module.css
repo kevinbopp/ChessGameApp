@@ -1,0 +1,263 @@
+.headertexttitle {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 155px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 309px;
+}
+.header {
+  align-self: stretch;
+  position: relative;
+  height: 118px;
+  z-index: 0;
+}
+.content1imgIcon {
+  position: absolute;
+  top: 29px;
+  left: calc(50% - 132px);
+  width: 241px;
+  height: 241px;
+  object-fit: cover;
+}
+.content2buttontext {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.content1buttonsend {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-16xl);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 373px;
+  left: calc(50% - 125px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(251.66deg, #3259a7, #3a7dff);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  height: 38px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.content1text {
+  position: absolute;
+  top: 238px;
+  left: calc(50% - 135px);
+  font-weight: 300;
+  display: inline-block;
+  width: 271px;
+  height: 124px;
+}
+.content1texttitle {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 155px);
+  font-size: var(--font-size-15xl);
+  display: flex;
+  color: var(--inputform);
+  align-items: center;
+  justify-content: center;
+  width: 310px;
+  height: 56px;
+}
+.content1,
+.content2 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-gray-200);
+}
+.content1 {
+  height: 434px;
+  z-index: 1;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkgray-200);
+}
+.content2 {
+  height: 99px;
+  z-index: 2;
+}
+.footerimggithub {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 23px;
+  left: calc(50% + 94px);
+  width: 38px;
+  height: 38px;
+  background-image: url(/public/footerimggithub21@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footertextcopyright {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 155px);
+  font-weight: 300;
+  display: inline-block;
+  width: 315px;
+  height: 24px;
+}
+.footerbuttontext {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.footerbuttonback,
+.footerimgdiscord {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+}
+.footerbuttonback {
+  padding: var(--padding-4xs) var(--padding-16xl);
+  top: 17px;
+  left: calc(50% - 72.5px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  height: 27px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.footerimgdiscord {
+  padding: 0;
+  top: 23px;
+  left: calc(50% - 132px);
+  width: 38px;
+  height: 38px;
+  background-image: url(/public/footerimgdiscord21@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footer,
+.navbarbackground {
+  background-color: var(--color-gray-100);
+}
+.footer {
+  align-self: stretch;
+  position: relative;
+  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.45);
+  height: 76px;
+  z-index: 3;
+  font-size: var(--font-size-5xs);
+  color: var(--color-silver-100);
+}
+.navbarbackground {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.45);
+  height: 73px;
+}
+.hamburgermenubutton,
+.menubuttonicon {
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+}
+.menubuttonicon {
+  height: 60.4%;
+  width: 83.34%;
+  top: 20.85%;
+  right: 8.32%;
+  bottom: 18.75%;
+  left: 8.34%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.hamburgermenubutton {
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  top: 21px;
+  right: 32px;
+  width: 32px;
+  height: 32px;
+}
+.pageselectlogo {
+  position: absolute;
+  top: 69px;
+  left: 29px;
+  background-color: var(--inputform);
+  width: 39px;
+  height: 4px;
+}
+.navlogoIcon {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  width: 53.89px;
+  height: 55.15px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navmobile {
+  position: absolute;
+  margin: 0 !important;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 73px;
+  z-index: 4;
+}
+.contactusmobile {
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-54xl) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url(/public/contactusmobile@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}

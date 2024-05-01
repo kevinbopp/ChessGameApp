@@ -1,0 +1,451 @@
+.textuser1 {
+  align-self: stretch;
+  position: relative;
+}
+.textuser1elo {
+  position: relative;
+  font-weight: 300;
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 52;
+  -webkit-box-orient: vertical;
+  width: 110px;
+  flex-shrink: 0;
+}
+.imguser1avatarIcon {
+  position: relative;
+  border-radius: var(--br-mini);
+  width: 66px;
+  height: 66px;
+  object-fit: cover;
+}
+.textuser1score {
+  position: relative;
+  font-weight: 300;
+  text-align: left;
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 52;
+  -webkit-box-orient: vertical;
+  width: 110px;
+  flex-shrink: 0;
+}
+.user1info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-100);
+}
+.addfriendbuttontext {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-outfit);
+  color: var(--inputform);
+  text-align: center;
+}
+.buttonaddfriend,
+.content1Topuser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttonaddfriend {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(251.66deg, #3259a7, #3a7dff);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 126px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.content1Topuser {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+  z-index: 0;
+}
+.content2divider {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+}
+.chessboardcontainer {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 155px);
+  border-radius: var(--br-26xl);
+  background: linear-gradient(
+    171.83deg,
+    rgba(55, 69, 106, 0.36),
+    rgba(197, 184, 214, 0.36)
+  );
+  width: 310px;
+  height: 310px;
+  overflow: hidden;
+}
+.content2Chess {
+  align-self: stretch;
+  position: relative;
+  height: 310px;
+  z-index: 1;
+}
+.content3Bottomuser,
+.textuser2 {
+  align-self: stretch;
+  justify-content: center;
+}
+.textuser2 {
+  position: relative;
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 25;
+  -webkit-box-orient: vertical;
+}
+.content3Bottomuser {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 2;
+}
+.content4divider {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  height: 408px;
+}
+.concedebuttontext {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.buttonconcede,
+.buttonleave {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-8xs);
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 111px;
+  left: calc(50% - 68px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  width: 136px;
+  height: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonleave {
+  top: 152px;
+}
+.content4Buttons {
+  align-self: stretch;
+  position: relative;
+  height: 189px;
+  z-index: 3;
+}
+.footerdivider {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.45);
+  height: 76px;
+}
+.footerimggithub {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 23px;
+  left: calc(50% + 94px);
+  width: 38px;
+  height: 38px;
+  background-image: url(/public/footerimggithub21@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footertextcopyright {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 155px);
+  font-weight: 300;
+  display: inline-block;
+  width: 315px;
+  height: 24px;
+}
+.footerbuttontext {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-outfit);
+  color: var(--color-silver-200);
+  text-align: center;
+}
+.footerbuttonback,
+.footerimgdiscord {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+}
+.footerbuttonback {
+  padding: var(--padding-4xs) var(--padding-16xl);
+  top: 17px;
+  left: calc(50% - 72.5px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(247.11deg, #565656, #323232);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+  height: 27px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.footerimgdiscord {
+  padding: 0;
+  top: 23px;
+  left: calc(50% - 132px);
+  width: 38px;
+  height: 38px;
+  background-image: url(/public/footerimgdiscord21@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footer {
+  align-self: stretch;
+  position: relative;
+  height: 76px;
+  z-index: 4;
+  font-size: var(--font-size-5xs);
+  color: var(--color-silver-100);
+}
+.navbarbackground {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.45);
+  height: 73px;
+}
+.menubuttonicon {
+  position: absolute;
+  height: 60.4%;
+  width: 83.34%;
+  top: 20.85%;
+  right: 8.32%;
+  bottom: 18.75%;
+  left: 8.34%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hamburgermenubutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--miscbutton);
+  position: absolute;
+  top: 21px;
+  right: 32px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.pageselectlogo {
+  position: absolute;
+  top: 69px;
+  left: 29px;
+  background-color: var(--inputform);
+  width: 39px;
+  height: 4px;
+}
+.navlogoIcon {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  width: 53.89px;
+  height: 55.15px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navmobile {
+  position: absolute;
+  margin: 0 !important;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 73px;
+  z-index: 5;
+}
+.gamemobile {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-54xl) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  background-image: url(/public/gamemobile@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--inputform);
+  font-family: var(--font-outfit);
+}
+
+.chessBoard
+{
+	width: 310px;
+	height: 310px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square
+{
+	width: 38.75px;
+	height: 38.75px;
+	z-index: 100;
+	position: relative;
+}
+
+.svgPiece
+{
+	width: 33.90625px;
+	height: 33.90625px;
+	margin: 2.421875px;
+	position: relative;
+	z-index: -10;
+}
+
+.svgPathPiece
+{
+	position: relative;
+	z-index: -11;
+}
+
+.piece
+{
+	position: relative;
+	z-index: 10;
+}
+
+.uiElement
+{
+	width: 38.75px;
+	height: 38.75px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 11;
+}
+
+.enPassant
+{
+	width: 38.75px;
+	height: 38.75px;
+	opacity: 1;
+	position: relative;
+	z-index: 9;
+}
+
+.svgCirclePiece
+{
+	width: 38.75px;
+	height: 38.75px;
+	opacity: 0.1;
+	position: relative;
+	z-index: -5;
+}
+
+.svgCircleNoPiece
+{
+	width: 12.109375px;
+	height: 12.109375px;
+	margin: 13.3203125px;
+	opacity: 0.1;
+	position: relative;
+	z-index: -5;
+}
+
+.svgPathUiElement
+{
+	position: relative;
+	z-index: -6;
+}
+
+.green
+{
+	background-color: rgb(125,148,93);
+}
+
+.tan
+{
+	background-color: rgb(238,237,213);
+}
+
+.grow {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a grow transition over 0.3 seconds. */
+}
+
+/* Apply the grow when hovering over this thing. */
+.grow:hover {
+  transform: scale(1.1); /* Scale up by 1.1 (10% bigger) on hover */
+}
+
+.shrink {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Smooth a shrink transition over 0.3 seconds. */
+}
+
+/* Apply the shrink when hovering over this thing. */
+.shrink:hover {
+  transform: scale(0.95); /* Scale down by 0.95 (5% smaller) on hover */
+}
